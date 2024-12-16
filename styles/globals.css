@@ -5,11 +5,11 @@
 *::after {
   box-sizing: border-box;
 }
-
+ 
+html,
 body {
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -18,7 +18,10 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+section,
+div,
+span {
   margin: 0;
 }
 
